@@ -1,0 +1,15 @@
+--------------------------
+ Notas para git en Platzi
+--------------------------
+
+Git es un sistema de control de versiones
+
+El cual esta repartido en una estructura de arbol,
+
+	1. Working area
+	2. Stating Area
+	3. Repository
+
+GIT va generando un historial de tu proyecto sobre un registro llamado repositorio. 
+
+Atravez del uso de commits
