@@ -2,6 +2,11 @@
  Notas para git en Platzi
 --------------------------
 
+--------------------------
+     Iniciando con GIt
+--------------------------
+
+
 Git es un sistema de control de versiones
 
 El cual esta repartido en una estructura de arbol,
@@ -68,6 +73,46 @@ o si queremos
 Y Luego agregamos el commit, que es como las observacion de los cambios realizados
 
 	$ git commit -m "Nuestro comentario"
+
+Y asi a medida de mas cambios, mas commits, un avance de todo el proyecto.
+
+Para llevar un backup de los commits que hacemos, utilizamos la siguiente linea
+
+	$ git log > commit.txt
+
+Ahora lo bueno...
+
+Para poder viajar en el tiempo de nuestro proyecto, desde el principio hasta donde lo llevamos, utilizamos la siguiente linea
+
+	$ git checkout [id_commit (6e590701f4a3f5cfeeb358763594718e65eea75a)]
+
+Y alli podemos ir mirando como estaba nuestro proyecto al momento de hacer ese commit...
+
+Ahora el lado oscuro...
+
+	$ git reset
+
+	Este comando borra los commits que siguen al punto que estamos mirando
+
+	Ver http://git.miguelnieva.com/#/24 para orientarse
+
+	Tener presente
+
+	git reset soft, se mantienen los cambios de nuestra working area, pero altera nuestro repositorio.
+
+	git reset mist el staging area se borra 
+
+	git reset --hard es el que nos borra de todo, desde nuestro working area hasta nuestro repositorio. 
+
+	Por eso es IMPORTANTE realizar un git log >, como backup de nuestros proyectos
+
+--------------------------
+  Uso de Ramas - Branches
+--------------------------
+
+
+
+
 
 
 

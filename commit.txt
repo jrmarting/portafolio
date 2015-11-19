@@ -1,0 +1,17 @@
+commit 585e301ae16cdfeb52f7b1be72e308b164c87c7e
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 18:16:49 2015 -0500
+
+    Se agregan normas de accesibilidad al index.html
+
+commit 5fc1621cb4eb26c4ce64e79f6f6e176fda6295cc
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 16:58:23 2015 -0500
+
+    Descripcion de la configuracion inicial de git
+
+commit 6e590701f4a3f5cfeeb358763594718e65eea75a
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 16:48:46 2015 -0500
+
+    Estos son los archivos iniciales de nuestro repositorio
