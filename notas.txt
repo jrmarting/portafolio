@@ -12,4 +12,32 @@ El cual esta repartido en una estructura de arbol,
 
 GIT va generando un historial de tu proyecto sobre un registro llamado repositorio. 
 
-Atravez del uso de commits
+Atravez del uso de commits.
+
+Para trabajar con este, debemos instalarlo en nuestro equipo, de acuerdo a la version de nuestro sistema operativo...
+
+	windows:	git_bash.exe
+	linux:		sudo apt-get install git
+
+Una ve instalado podemos confirmar que lo tenemos... 
+	
+	$git --version
+
+Y procederemos a configurar nuestros datos
+
+	$ git config --global user.name "John Doe"
+	$ git config --global user.email johndoe@example.com
+
+	$ git config --global color.ui true
+
+Y confirmamos que esten bien escritos con un 
+
+	$ git config --list
+		user.name=Ricardo
+		user.email=ricardomartin67@gmail.com
+		color.ui=true
+		core.repositoryformatversion=0
+		core.filemode=true
+		core.bare=false
+		core.logallrefupdates=true
+
