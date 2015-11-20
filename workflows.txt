@@ -8,3 +8,12 @@ De aqui nace gitHub, una plataforma social para construir proyectos. De aqui par
 
 	Ver: http://git.miguelnieva.com/#/72
 
+DEntro de gitHub, nos referimos al proyecto, y alli buscamos la opcion de 
+
+	HTTPS clone URL
+
+Y copiamos la URL que nos da alli.
+
+Hecho esto, nos ubicamos en la terminal y en la carpeta donde lo vamos a descargar y digitamos el comando
+
+	$ git clone [URL_repo]

@@ -1,3 +1,45 @@
+commit 20437949635f69fb738f9b7cdcb36f3bad4caaf7
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 21:46:42 2015 -0500
+
+    Se implementa el modulo de Portafolio
+
+commit 31fe5879f27de7e6b0855bce831699df4db96dc9
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 21:00:11 2015 -0500
+
+    Consolidado propuesta de contacto con la rama principal del proyecto
+
+commit 35558a2894f678da1e85816629e48f975fd4e281
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 20:51:05 2015 -0500
+
+    Se actualiza la documentacion
+
+commit c8924903fdf255c5770067e6ac462f1675eb0171
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 20:49:00 2015 -0500
+
+    Se actualiza la documentacion
+
+commit c2d806d4081d78bbc49eab073c201f22d7b8002b
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 20:33:05 2015 -0500
+
+    Se actauliza documentacion
+
+commit dbd7ace4c2c4bdec502a4742c51572fb6d20cae4
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 20:11:44 2015 -0500
+
+    Se da navegacion a la pagina de contacto y se agrega estilo a la misma
+
+commit dbdecfb5b27781599105a8d6c0a0d820fcec24e8
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 20:02:50 2015 -0500
+
+    Se estructura la pagina de contacto
+
 commit 5eac92cc58378a48bfcc465e547b49a57e01e080
 Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Thu Nov 19 19:50:09 2015 -0500
