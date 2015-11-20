@@ -160,6 +160,30 @@ Y asi solamente al digitar el
 
 estaremos ejecutando el comando que acabamos de abreviar... Y listo nos olvidaremos de escribir comandos largos... :)
 
+--------------------------
+         Fusiones
+--------------------------
+
+Una vez tengamos nuestra propuesta terminada y aprobada pro nuestro equipo, procedemos a realizar una FUSION, para esto seguimos estos pasos:
+
+	1) Ubicarnos en la rama principal, o que va a absorver a nuestra rama experimental
+
+		$ git checkout master
+
+	2) y digitamos el nombre de nuestra rama a fusionar
+
+		$ git merge experimental
+
+Y aqui puede pasar dos cosas,
+
+	Que todo bonito, todo bien, conocido como un FAST-FORWARD
+
+	ó
+
+	MANUAL MERGE, que es cuando tenemos que definir que cambios son los que queremos, pues se da cuando dos desarrolladores trabajan el mismo archivo.
+
+
+
 
 
 
