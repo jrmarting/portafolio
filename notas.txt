@@ -146,6 +146,22 @@ Una vez tenemos idea de las ramas, utilizamos
 
 Para desplazarnos a una rama en especial enla que estamos trabajando nuestra propuesta.
 
+Para conocer el avance de nuestras ramas, utilizamos el siguiente comando...
+
+	$ git log --oneline --graph --all
+
+Para automatizar los comandos de git, en una sola palabra, utilizamos el siguiento comando,
+
+	$ git config --global alias.[name_alias] 'log --oneline --graph --all'
+
+Y asi solamente al digitar el 
+
+	$ git [name_alias] 
+
+estaremos ejecutando el comando que acabamos de abreviar... Y listo nos olvidaremos de escribir comandos largos... :)
+
+
+
 
 
 
