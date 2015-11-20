@@ -1,3 +1,9 @@
+commit db57f001b474b949f6f87dfcc0fa95b790cd4349
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 18:56:42 2015 -0500
+
+    Se agrego el estilo de la pagina con css
+
 commit 585e301ae16cdfeb52f7b1be72e308b164c87c7e
 Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Thu Nov 19 18:16:49 2015 -0500

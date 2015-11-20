@@ -50,6 +50,8 @@ Una vez tenemos esto listo, podemos empezar a trabajar...
 
 Para esto hay que ubicarnos en la carpeta de nuestro proyecto
 
+Con el comando pwd, nos mostrar en donde estamos
+
 	ricardo@ricardo-Inspiron-5420:~/Documentos/name_folder$
 
 y digitar el siguiente comando
@@ -109,6 +111,43 @@ Ahora el lado oscuro...
 --------------------------
   Uso de Ramas - Branches
 --------------------------
+
+Lineas alternas de tiempo en la historia de nuestro repositorio, las cuales nos ayuda a crear features, experimentar y arreglar bugs, sin afectar la version estable, la linea principal del proyecto.
+
+	Linea master: es la linea estable del proyecto o principal.
+
+	branches: lineas alternas, experimentales.
+
+	Ver: http://git.miguelnieva.com/#/40
+
+	El termino de HEAD, es un concepto que se refiere al punto de la Historia de nuestro repositorio en donde estamos.
+
+Practicando con Ramas:
+
+Con el comando,
+
+	$ git branch [name_branch]
+
+Estamos creando nuestra rama experimental. Y para ver cuantas ramas tenemos, utilizamos,
+
+	$ git branch 
+
+Y aqui nos dara una lista de todas las ramas que tenemos hasta el momento...
+
+	Ejm: 
+
+	ricardo@ricardo-Inspiron-5420:~/Documentos/gitFolder$ git branch 
+		experimental
+		* master
+
+Una vez tenemos idea de las ramas, utilizamos
+
+	$ git checkout [name_branch]
+
+Para desplazarnos a una rama en especial enla que estamos trabajando nuestra propuesta.
+
+
+
 
 
 
