@@ -170,9 +170,13 @@ Una vez tengamos nuestra propuesta terminada y aprobada pro nuestro equipo, proc
 
 		$ git checkout master
 
+		Ver: http://git.miguelnieva.com/#/52
+
 	2) y digitamos el nombre de nuestra rama a fusionar
 
 		$ git merge experimental
+
+		VEr: http://git.miguelnieva.com/#/53
 
 Y aqui puede pasar dos cosas,
 
