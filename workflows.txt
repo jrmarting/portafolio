@@ -1,0 +1,10 @@
+--------------------------
+        Workflows
+--------------------------
+
+Dentro del mundo del desarrollo, se espera que todos compartamos codigo y nos colaboremos.
+
+De aqui nace gitHub, una plataforma social para construir proyectos. De aqui parte los flujos de trabajo.
+
+	Ver: http://git.miguelnieva.com/#/72
+
