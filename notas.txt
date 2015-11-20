@@ -186,6 +186,23 @@ Y aqui puede pasar dos cosas,
 
 	MANUAL MERGE, que es cuando tenemos que definir que cambios son los que queremos, pues se da cuando dos desarrolladores trabajan el mismo archivo.
 
+Cuando terminamos de ejecutar una rama, podemos ejecutar el siguiente comando,
+
+	git branch -d [name_branc]
+
+Eliminaremos nuestra rama de propuesta.
+
+Ejm:
+
+	ricardo@ricardo-Inspiron-5420:~/Documentos/gitFolder$ git branch
+  		experimental
+		* master
+	ricardo@ricardo-Inspiron-5420:~/Documentos/gitFolder$ git branch -d experimental
+		Deleted branch experimental (was 35558a2).
+	ricardo@ricardo-Inspiron-5420:~/Documentos/gitFolder$ git branch
+		* master
+
+
 
 
 
