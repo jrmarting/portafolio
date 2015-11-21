@@ -17,3 +17,67 @@ Y copiamos la URL que nos da alli.
 Hecho esto, nos ubicamos en la terminal y en la carpeta donde lo vamos a descargar y digitamos el comando
 
 	$ git clone [URL_repo]
+
+Con esta opcion, podemos hacer una copia exacta del proyecto, y ademas tener los COMMITS que se han venido trabajando en todo el proyecto.
+
+
+1)	Repositorios Propios
+
+	Somos el dueño de nuestros proyectos y pocos colaborativos, aqui creamos nuestro repositorio, lo vinculamos con nuestro equipo local, y lo relacionamos con github.
+
+	En gitHub, damos click en NEW, y damos el nombre a nuestro repositorio y un commit inicial (Description) - Archivo README
+
+	Puede ser publico o privado (pago)
+
+	AL crear nuestro repositorio en gitHub, nos dara la URL donde este se encuentra.
+
+	Ya en eso nos ubicamos en nuestro proyecto en local, y haremos uso del comando remote, este se usa para enlazar servidores con las areas locales.
+
+		$ git remote
+
+	Seguido a esto agregamos el add  + origin (norma de git para nuestro proyecto) + URL del repo
+
+		$ git remote add origin [URL_repo] 
+
+	Y para estar seguro de los enlaces via repositorio usamos
+
+		$ git remote -v
+
+	Ahora solo tenemos que darle 
+
+		$ git push
+
+	Empujar los commits de local a nuestro repositorio
+
+		$ git push origin master
+
+2) Mis Repositorios y mi equipo de trabajo
+
+	Aqui no se pide permiso para hacer cambios, por eso es importante descargar los nuevos cambios antes y despues de codificar.
+
+	Aqui viene el Git Fetch & Git Merge. Cuando generamos un enlace remoto, se habla de una rama que espejea el repositorio remoto a nuestra area local (origin/master). 
+
+	Git Fetch, lo que hace es descargar los cambios del repo, en la rama escondida origin/master de nuestro local.
+
+		$ git fetch origin	
+
+	Aqui hara el proceso anterior, y para estar seguro de que vamos bien, procederemos a digitar
+
+		$ git branch 
+		$ git branch - a
+
+	Que nos mostrara en caso todas las ramas en local.
+
+	Una vez tengamos esto, y hayamos realizado nuestro cambios en local, podemos subir esto a nuestro repo.
+
+		$ git push origin master
+
+	Y listo vamos a revisar.
+
+
+
+
+
+
+
+
