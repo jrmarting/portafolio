@@ -1,3 +1,41 @@
+commit 3dfe0c30e3a237a066590d0746b0bb1113b61783
+Merge: 2a95910 7048768
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Fri Nov 20 20:28:07 2015 -0500
+
+    Sincronizacion de archivos
+
+commit 2a959104e12aa18014fb04aef3bab34a7e171d41
+Merge: b87f16f ff77bf6
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Fri Nov 20 20:21:42 2015 -0500
+
+    Sincronizacion de archivos
+
+commit b87f16fb94589ff266506ea9fd6b9e4dc855bc8f
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Fri Nov 20 19:29:37 2015 -0500
+
+    Se crea un archivo commit.txt
+
+commit 16021c23d74a3123269123072c7f4fabd8cf1d12
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Fri Nov 20 19:27:02 2015 -0500
+
+    Actualizacion del archivo workflows.txt
+
+commit ff77bf6e83c726dfc14505abd97c02db7fe15595
+Author: Juan Martin <ricardomartin67@gmail.com>
+Date:   Fri Nov 20 19:17:35 2015 -0500
+
+    Create README.md
+
+commit 44a0c4c58e4fee977ddf12160f9b0a039e2071c4
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Nov 19 21:54:04 2015 -0500
+
+    Actualizacion de documentacion Workflows.txt
+
 commit 20437949635f69fb738f9b7cdcb36f3bad4caaf7
 Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Thu Nov 19 21:46:42 2015 -0500
@@ -69,3 +107,21 @@ Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Thu Nov 19 16:48:46 2015 -0500
 
     Estos son los archivos iniciales de nuestro repositorio
+
+commit 7048768ae09411e46891966267e572615641b298
+Author: Juan Martin <ricardomartin67@gmail.com>
+Date:   Wed Nov 11 20:21:50 2015 -0500
+
+    Actualización del dimensionamiento de img selfie
+
+commit f9177fd18e6ea21f656bc2d120ee3f01ef2c0f7f
+Author: Juan Ricardo Martin Guio <ricardomartin67@gmail.com>
+Date:   Wed Nov 11 18:54:48 2015 -0500
+
+    Se modifica ruta de imagen selfie.png
+
+commit e07b2ec5ff553df747cd0a12bdfafbe678890ed2
+Author: Juan Ricardo Martin Guio <ricardomartin67@gmail.com>
+Date:   Wed Nov 11 18:35:58 2015 -0500
+
+    Estos son los archivos iniciales del Proyecto

@@ -3,25 +3,29 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta charset="UTF-8"/> 
-	<title>Bienvenido a Git</title>
+	<title> .: Tecom JR :. </title>
 </head>
 <body>
 	<header id="header">
 
-		<img class="logo" height="100" width="300" src="imagenes/logo_JR.png" alt="Imagen del logo Tecom JR">
+		<div class="header-mobile">
+			<img class="logo" height="100" width="300" src="imagenes/logo_JR.png" alt="Imagen del logo Tecom JR">
 
-		<nav>
-			<ul>
-				<li>
+			<button id="btnMenu" class="header-btn-nav">Menu</button>
+		</div>
+
+		<nav class="navigation" id="main-navigation">
+			<ul id="navbarMenu" class="navigation-list">
+				<li class="navigation-list-item">
 					<a href="#">Perfil</a>
 				</li>
-				<li>
+				<li class="navigation-list-item">
 					<a href="portafolio.html" target="_blank">Portafolio</a>
 				</li>
-				<li>
+				<li class="navigation-list-item">
 					<a href="https://platzi.com/" target="_blank">Comunidad</a>
 				</li>			
-				<li>
+				<li class="navigation-list-item">
 					<a href="contacto.html" target="_blank">Contacto</a>
 				</li>
 			</ul>
@@ -35,7 +39,7 @@
 
 		<h1>Juan Ricardo Martin Guio</h1>
 		<h2>Tecnicomunicaciones JR</h2>
-		<h2>Colombia</h2>
+		<h3>Colombia</h3>
 
 		<article>
 			<p>
@@ -74,5 +78,20 @@
 		</p>
 
 	</footer>
+
+	<script >
+		(function (){
+			var btnMenu = document.getElementById('btnMenu');
+			var navbarMenu = document.getElementById('navbarMenu');
+
+			btnMenu.addEventListener('click', onClickMenu);
+
+			function onClickMenu() {
+				navbarMenu.classList.toggle('navigation-list-show');
+			}
+
+		}())
+	</script>
+
 </body>
 </html>
