@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: green;
+    background-color: white;
     color: black;
     height: 64px;
     width: 100%;
@@ -25,10 +25,14 @@ body {
 
 .logo {
     order: 1;
+    margin-top: 1rem;
+    margin-right:1rem;    
 }
 
 .header-btn-nav {
     order: 2;
+    height: 4rem;
+    margin-right: 2rem;
     border: 0;
     border-radius: 5px;
     background-color: white;
@@ -40,13 +44,15 @@ body {
 
 .header-menu-list {    
     height: 0;
-    overflow: hidden;
- 
-    -webkit-transition: width 2s ease;
-       -moz-transition: width 2s ease;
-        -ms-transition: width 2s ease;
-         -o-transition: width 2s ease;
-            transition: width 2s ease;
+    overflow:hidden;
+    -webkit-transition: height .3s ease;
+       -moz-transition: height .3s ease;
+         -o-transition: height .3s ease;
+            transition: height .3s ease;
+}
+
+.header-menu-list--show {
+    height: 280px;
 }
 
 .header-menu-list-item a {
@@ -80,7 +86,7 @@ body {
     }
 
     .logo {
-        height: 
+        margin-top: 2rem;
     }
 }
 
@@ -109,17 +115,17 @@ a {
 
 nav ul {
     list-style:none;
-    clear:both; 
-    font-weight: 600;      
+    clear:both;   
 }
 
 nav ul li a:hover {
     background-color: rgb(174, 198, 221);
     border-radius: 15px;
+    width: auto;
 }
 
 section {
-    margin-top: 7rem;
+    margin-top: 6rem;
 	padding: 20px;
 	color: white;
 	background: url("https://images.unsplash.com/19/desktop.JPG?q=80&fm=jpg&s=10cf10aead07bd0897cc50bccc63ac07") no-repeat fixed center;
