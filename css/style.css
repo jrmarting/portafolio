@@ -25,13 +25,14 @@ body {
 
 .logo {
     order: 1;
-    margin-top: 1rem;
-    margin-right:1rem;    
+    margin-top: 0.8rem;
+    margin-left:2.5rem;    
 }
 
 .header-btn-nav {
     order: 2;
-    height: 4rem;
+    height: 3rem;
+    margin-top: 0.8rem;
     margin-right: 2rem;
     border: 0;
     border-radius: 5px;
@@ -86,7 +87,7 @@ body {
     }
 
     .logo {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 }
 
@@ -125,7 +126,7 @@ nav ul li a:hover {
 }
 
 section {
-    margin-top: 6rem;
+    margin-top: 5rem;
 	padding: 20px;
 	color: white;
 	background: url("https://images.unsplash.com/19/desktop.JPG?q=80&fm=jpg&s=10cf10aead07bd0897cc50bccc63ac07") no-repeat fixed center;

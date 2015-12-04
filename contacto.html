@@ -1,33 +1,38 @@
 <DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<meta charset="UTF-8"/> 
-	<title>Contactanos</title>
+	<title> .: Tecom JR - Contacto :. </title>
 </head>
 <body>
 
-	<header id="header">
+	<header class="header">
+		<div class="header-mobile">
+			<img class="logo" height="50" width="200" src="imagenes/logo_JR.png" alt="Imagen del logo Tecom JR">
+			<button id="btnMenu" class="header-btn-nav">
+				 <i class="fa fa-bars"></i>
+			</button>
+		</div>
 
-		<img class="logo" height="100" width="300" src="imagenes/logo_JR.png" alt="Imagen del logo Tecom JR">
-
-		<nav>
-			<ul>
-				<li>
+		<nav class="header-menu-navbar">
+			<ul id="navbarMenu" class="header-menu-list">
+				<li class="header-menu-list-item">
 					<a href="index.html">Perfil</a>
 				</li>
-				<li>
-					<a href="/platzi/github/mejorandogit-master/index.html" target="_blank">Portafolio</a>
+				<li class="header-menu-list-item">
+					<a href="portafolio.html" target="_blank">Portafolio</a>
 				</li>
-				<li>
+				<li class="header-menu-list-item">
 					<a href="https://platzi.com/" target="_blank">Comunidad</a>
-				</li>			
-				<li>
-					<a href="#">Contacto</a>
+				</li>
+				<li class="header-menu-list-item">
+					<a href="#" target="_blank">Contacto</a>
 				</li>
 			</ul>
 		</nav>
-
 	</header>
 
 	<section>
@@ -79,6 +84,20 @@
 		</p>
 
 	</footer>
+
+	<script >
+		(function (){
+			var btnMenu = document.getElementById('btnMenu');
+			var navbarMenu = document.getElementById('navbarMenu');
+
+			btnMenu.addEventListener('click', onClickMenu);
+
+			function onClickMenu() {
+				navbarMenu.classList.toggle('header-menu-list--show');
+			}
+
+		}())
+	</script>
 
 </body>
 </html>		
