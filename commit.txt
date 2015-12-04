@@ -1,3 +1,33 @@
+commit 06c9f744e4c7c2ea2ec0ecef71991b550017d995
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Dec 3 22:30:21 2015 -0500
+
+    Se agrega formato resposive de navegacion a las demas paginas del proyecto
+
+commit d9eaad049d11cd2bf5719d5491d0babd90e0a723
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Dec 3 21:52:39 2015 -0500
+
+    Ajustado final Resposive a la barra de navegacion
+
+commit 3bc9b8adf70c90d16075213e7d1750adc322f43c
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Dec 3 20:21:27 2015 -0500
+
+    Ajustado la barra de navegacion sin puntualidad
+
+commit e1f92b8972d99f3ba4d8452728cb01cc43f643d2
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Dec 3 18:33:55 2015 -0500
+
+    Agregado el archivo normalize.css y ajustado la barra de navegacion
+
+commit a5573259e5b1c86a1774ff5d2a8c2228021ed914
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Tue Dec 1 22:21:45 2015 -0500
+
+    Se trabaja un resposive design en la barra de navegacion
+
 commit 3dfe0c30e3a237a066590d0746b0bb1113b61783
 Merge: 2a95910 7048768
 Author: Ricardo <ricardomartin67@gmail.com>
