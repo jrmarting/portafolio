@@ -30,6 +30,7 @@ body {
 }
 
 .header-btn-nav {
+    font-size: 1.5rem;
     order: 2;
     height: 3rem;
     margin-top: 0.8rem;
@@ -43,7 +44,8 @@ body {
     background-color: white;
 }
 
-.header-menu-list {    
+.header-menu-list {  
+    font-size: 1.2rem;  
     height: 0;
     overflow:hidden;
     -webkit-transition: height .3s ease;
@@ -53,7 +55,7 @@ body {
 }
 
 .header-menu-list--show {
-    height: 280px;
+    height: 300px;
 }
 
 .header-menu-list-item a {
@@ -91,9 +93,12 @@ body {
     }
 }
 
+h2, h3, .perfil {
+    font-size: 1.5rem;
+}
+
 h1 {
-	font-size: 2em;
-    line-height: 1em;
+	line-height: 1em;
 	margin: 15px 0;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -103,6 +108,10 @@ footer {
     background-color: white;
     width: 100%;
     text-align: center;
+}
+
+footer img {
+    margin: 0.5rem;
 }
 
 .avatar, p img{
