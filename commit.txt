@@ -1,3 +1,15 @@
+commit 0dc15c7a7cde17b0d9c63e1a8877e83a9853f85e
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Fri Dec 4 19:52:04 2015 -0500
+
+    Se acomoda el espacio entre botones, ajuste de letra y configuracion de vista en mobiles
+
+commit 3cc7d2724840ae72856c7d1ba5b19cbcb899df59
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Thu Dec 3 22:31:25 2015 -0500
+
+    Se agrega archivo commit.txt
+
 commit 06c9f744e4c7c2ea2ec0ecef71991b550017d995
 Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Thu Dec 3 22:30:21 2015 -0500
