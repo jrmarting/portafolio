@@ -1,9 +1,13 @@
+/*Inicia el diseño de la pagina*/
+
 body {
 	background: white;
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
+
+/*Se implementa la metodologia First Mobile*/
 
 .header {
     background-color: white;
@@ -66,6 +70,8 @@ body {
     display: block;
 }
 
+/*Diseño que debe tomar nuestra pagina en pantallas mayores a 768px (Tablets - PC)*/
+
 @media (min-width: 768px) {
     .header {
         display: -webkit-flex;
@@ -92,6 +98,8 @@ body {
         margin-top: 1.5rem;
     }
 }
+
+/*Diseño de pagina*/
 
 h2, h3, .perfil {
     font-size: 1.5rem;
@@ -138,7 +146,7 @@ section {
     margin-top: 5rem;
 	padding: 20px;
 	color: white;
-	background: url("https://images.unsplash.com/19/desktop.JPG?q=80&fm=jpg&s=10cf10aead07bd0897cc50bccc63ac07") no-repeat fixed center;
+	background: url("http://cache.preserve.io/llwgfwen/assets/2849ab7b2ff63b601b586db9c7143ece.jpg") no-repeat fixed center;
 	text-align: center;	
 	line-height: 1.3em;
 }
@@ -147,3 +155,26 @@ article {
 	position: left;
 }
 
+/*Estilo para la tabla implementada en portafolio.html - Metodologia Container Scrolling*/
+
+.container_table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    border: 1px solid #ccc; 
+    color: white;
+    text-align: center;
+    margin: 2rem;
+}
+
+tr {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 1em;
+    font-weight: bold;
+}
