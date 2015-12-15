@@ -2,15 +2,16 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styleSlider.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
 	<meta charset="UTF-8"/> 
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<title> .: Tecom JR - Portafolio :. </title>
 </head>
 <body>
 
-	<header class="header">
+	<header class="header" id="header">
 		<div class="header-mobile">
 			<img class="logo" height="50" width="200" src="imagenes/logo_JR.png" alt="Imagen del logo Tecom JR">
 			<button id="btnMenu" class="header-btn-nav">
@@ -38,31 +39,67 @@
 
 	<section>
 
-		<h1>Conoce mi trabajo... :)</h1>
-		<div class="container_table">
-			<table>
-				<thead>
-					<tr>
-						<th>Curso de Programacion - Platzi</th>
-						<th> Curso de GitHub - Platzi</th>
-						<th>Curso Responsive Desing - Platzi</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td data-th="nom_proy"> <img class="logo" height="250" width="250" src="imagenes/proy_pb.png" alt="Imagen del proyecto">
-						</td>				
-					
-						<td data-th="nom_proy"><img class="logo" height="250" width="250" src="imagenes/proy_gh.png" alt="Imagen del proyecto">
-						</td>
-					
-						<td data-th="nom_proy">
-						<img class="logo" height="250" width="250" src="imagenes/proy_rd.png" alt="Imagen del proyecto">
-						</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="slider">
+
+			<div class="slide active-slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-5">
+		              <h1>Curso de Programacion</h1>		              
+		              <h2> - Platzi</h2>
+		              <p>Carrera de fundamentos basicos de programacion - Comunidad Platzi</p>
+		            </div>
+		            <div class="slide-img col-xs-7">
+		              <img src="imagenes/proy_pb.png" alt="Imagen del proyecto" width="540px">
+		            </div>
+		          </div>
+		        </div>      
+		    </div>
+
+		    <div class="slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-5">
+		              <h1>Curso de GitHub</h1>
+		              <h2> - Platzi</h2>
+		              <p>Curso profesional de Git y GitHub - Comunidad Platzi</p>
+		              
+		            </div>
+		            <div class="slide-img col-xs-7">
+		              <img src="imagenes/proy_gh.png" alt="Imagen del proyecto" width="540px">
+		            </div>
+		          </div>
+		        </div>      
+		    </div> 
+
+		    <div class="slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-5">
+		              <h1>Curso Responsive Desing</h1>
+		              <h2> - Platzi</h2>
+		              <p>Curso profesional de Responsive Desing - Comunidad Platzi</p>
+		              
+		            </div>
+		            <div class="slide-img col-xs-7">
+		              <img src="imagenes/proy_rd.png" alt="Imagen del proyecto" width="540px">
+		            </div>
+		          </div>
+		        </div>      
+		    </div> 
+
 		</div>
+
+		<div class="slider-nav">
+      		<a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      		<ul class="slider-dots">
+		        <li class="dot active-dot">&bull;</li>
+		        <li class="dot">&bull;</li>
+		        <li class="dot">&bull;</li>
+		    </ul>
+      		<a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+    	</div> 
+
 	</section>
 
 	<footer>
@@ -94,6 +131,8 @@
 
 	</footer>
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
 	<script >
 		(function (){
 			var btnMenu = document.getElementById('btnMenu');
