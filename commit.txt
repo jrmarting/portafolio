@@ -1,3 +1,9 @@
+commit eb430d95f420f07d5ca267e691aeb3a945b11196
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Sat Jan 2 20:32:08 2016 -0500
+
+    Se realiza modificaciones a la pagina portafolios, y se adiciona una barra de navegacion
+
 commit f2c9c5d21ab3c72210ebfbcb15c0ab32e7dbb678
 Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Mon Dec 14 22:21:07 2015 -0500
