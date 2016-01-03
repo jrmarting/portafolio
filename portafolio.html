@@ -2,12 +2,12 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/styleSlider.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+	<href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
 	<meta charset="UTF-8"/> 
 	<meta name=viewport content="width=device-width, initial-scale=1">
-	<title> .: Tecom JR - Portafolio :. </title>
+	<title> .: Portafolio - Tecom JR :. </title>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 					<a href="#" target="_blank">Portafolio</a>
 				</li>
 				<li class="header-menu-list-item">
-					<a href="https://platzi.com/" target="_blank">Comunidad</a>
+					<a href="comunidad.html" target="_blank">Comunidad</a>
 				</li>
 				<li class="header-menu-list-item">
 					<a href="contacto.html" target="_blank">Contacto</a>
@@ -39,70 +39,86 @@
 
 	<section>
 
-		<div class="slider">
+<div class="slider">
+	<div class="container">
 
-			<div class="slide active-slide">
-		        <div class="container">
-		          <div class="row">
-		            <div class="slide-copy col-xs-5">
-		              <h1>Curso de Programacion</h1>		              
-		              <h2> - Platzi</h2>
-		              <p>Carrera de fundamentos basicos de programacion - Comunidad Platzi</p>
-		            </div>
-		            <div class="slide-img col-xs-7">
-		              <img src="imagenes/proy_pb.png" alt="Imagen del proyecto" width="540px">
-		            </div>
-		          </div>
-		        </div>      
-		    </div>
-
-		    <div class="slide">
-		        <div class="container">
-		          <div class="row">
-		            <div class="slide-copy col-xs-5">
-		              <h1>Curso de GitHub</h1>
-		              <h2> - Platzi</h2>
-		              <p>Curso profesional de Git y GitHub - Comunidad Platzi</p>
-		              
-		            </div>
-		            <div class="slide-img col-xs-7">
-		              <img src="imagenes/proy_gh.png" alt="Imagen del proyecto" width="540px">
-		            </div>
-		          </div>
-		        </div>      
-		    </div> 
-
-		    <div class="slide">
-		        <div class="container">
-		          <div class="row">
-		            <div class="slide-copy col-xs-5">
-		              <h1>Curso Responsive Desing</h1>
-		              <h2> - Platzi</h2>
-		              <p>Curso profesional de Responsive Desing - Comunidad Platzi</p>
-		              
-		            </div>
-		            <div class="slide-img col-xs-7">
-		              <img src="imagenes/proy_rd.png" alt="Imagen del proyecto" width="540px">
-		            </div>
-		          </div>
-		        </div>      
-		    </div> 
-
+		<div class="con active-slide">
+					
+			<div class="col-md-7">	
+			<picture>	
+				<source media="(min-width: 768px)" srcset="./imagenes/proy_pb.png">
+				<img src="./imagenes/programacion-basica2x.png" class="img-responsive" alt="Imagen curso Programacion - Platzi">
+			</picture>
+			</div>
+			<div class="col-md-5">
+				<h1>Curso de Programación Básica</h1>
+				<p>Pagina que muestra los temas vistos dentro del curso, y ejemplos sobre los fundamentos basicos de programacion."</p>
+			</div>
+						
 		</div>
 
-		<div class="slider-nav">
-      		<a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
-      		<ul class="slider-dots">
-		        <li class="dot active-dot">&bull;</li>
-		        <li class="dot">&bull;</li>
-		        <li class="dot">&bull;</li>
-		    </ul>
-      		<a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
-    	</div> 
+		<div class="con con-copy">
+		
+			<div class="col-md-7">	
+			<picture>
+				<source class="con-img" media="(min-width: 768px)" srcset="./imagenes/proy_gh.png">
+				<img src="./imagenes/git-github2x.png" class="img-responsive" alt="Imagen curso GitHub - Platzi">
+			</picture>
+			</div>
+			<div class="col-md-5">
+				<h1>Curso profesional de Git y GitHub</h1>
+				<p>Proyecto desarrollado dentro del curso, como punto de partida para la carrera de Frontend - Platzi</p>
+			</div>
+		
+		</div>
+
+		<div class="con con-copy">
+		
+			<div class="col-md-7">	
+			<picture>
+				<source class="con-img" media="(min-width: 768px)" srcset="./imagenes/proy_gh.png">
+				<img src="./imagenes/html5-css32x.png" class="img-responsive" alt="Imagen curso HTML y CSS - Platzi">
+			</picture>
+			</div>
+			<div class="col-md-5">
+				<h1>Curso de HTML y CSS3</h1>
+				<p>Apartir de este curso nace el modelo de esta pagina.</p>
+			</div>
+		
+		</div>
+
+		<div class="con con-copy">
+		
+			<div class="col-md-7">	
+			<picture>
+				<source class="con-img" media="(min-width: 768px)" srcset="./imagenes/proy_rd.png">
+				<img src="./imagenes/responsive2x.png" class="img-responsive" alt="Imagen curso Responsive - Platzi">
+			</picture>
+			</div>
+			<div class="col-md-5">
+				<h1>Curso de Responsive Design</h1>
+				<p>Apartir de este curso se da un toque mas amigable en ambientes moviles.</p>
+			</div>
+		
+		</div>
+
+	</div>
+	</div>
 
 	</section>
 
 	<footer>
+
+		<div class="slider-nav">
+			<a href="#" class="arrow-prev"><img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png	" width="50px"></a>
+			<ul class="slider-dots">
+				<li class="dot active-dot">&bull;</li>
+				<li class="dot">&bull;</li>
+				<li class="dot">&bull;</li>
+				<li class="dot">&bull;</li>
+			</ul>
+			<a href="#" class="arrow-next"><img src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-right-01-128.png" width="50px"></a>
+		</div> 
 
 		<p>
 			<a href="https://www.facebook.com/jrmartinguio" target = " _blank">

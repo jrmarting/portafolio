@@ -113,10 +113,50 @@
 			</div>
 		</div>
 	</section>
+
 	<footer>
+
 		<p>
-			Juan Ricardo Martin Guio - 2015
+			<a href="https://www.facebook.com/jrmartinguio" target = " _blank">
+				<img height="30" width="30" src="imagenes/link_Facebook.png" alt="Boton Facebook">
+			</a>
+			<a href="https://instagram.com/j_ricardom/" target = " _blank">
+				<img height="30" width="30" src="imagenes/link_Instagran.png" alt="Boton Instagram">
+			</a>
+			<a href="https://co.linkedin.com/in/jrmartinguio" target = " _blank">
+				<img height="30" width="30" src="imagenes/link_Link.png" alt="Boton LinkedIn">
+			</a>
+			<a href="https://plus.google.com/u/0/+JuanMartinGuio/posts" target = " _blank">
+				<img height="30" width="30" src="imagenes/link_Plus.png" alt="Boton Google+">
+			</a>
+			<a href="https://twitter.com/juan_jrmartin" target = " _blank">
+				<img height="30" width="30" src="imagenes/link_Twetter.png" alt="Boton Twitter">
+			</a>
+			<a href="https://github.com/jrmarting" target = " _blank">
+				<img height="30" width="30" src="imagenes/link_github.png" alt="Boton Twitter">
+			</a>
 		</p>
-	</footer>
+
+		<p>
+			2015 - <a href="#header"> Juan Ricardo Martin Guio </a>
+		</p>
+
+	</footer> 
+
+	<script >
+		(function (){
+			var btnMenu = document.getElementById('btnMenu');
+			var navbarMenu = document.getElementById('navbarMenu');
+
+			btnMenu.addEventListener('click', onClickMenu);
+
+			function onClickMenu() {
+				navbarMenu.classList.toggle('header-menu-list--show');
+			}
+
+		}())
+	</script>
+
+
 </body>
 </html>

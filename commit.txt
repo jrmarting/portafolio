@@ -1,3 +1,21 @@
+commit f2c9c5d21ab3c72210ebfbcb15c0ab32e7dbb678
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Mon Dec 14 22:21:07 2015 -0500
+
+    Se agrega carpeta js y funcionalidad de navegacion en el portafolio
+
+commit 2bf80665aa65490256223da2285ad5f58ff256fc
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Sat Dec 5 20:37:05 2015 -0500
+
+    Estilo para la tabla implementada en portafolio.html - Metodologia Container Scrolling
+
+commit 425da361017670a47fecf50ab5557c74475cd987
+Author: Ricardo <ricardomartin67@gmail.com>
+Date:   Fri Dec 4 20:42:15 2015 -0500
+
+    Se reorganiza la visualizacion de las paginas en moviles
+
 commit 0dc15c7a7cde17b0d9c63e1a8877e83a9853f85e
 Author: Ricardo <ricardomartin67@gmail.com>
 Date:   Fri Dec 4 19:52:04 2015 -0500

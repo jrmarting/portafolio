@@ -1,3 +1,5 @@
+@import url("./styleSlider.css");
+
 /*Inicia el diseño de la pagina*/
 
 body {
@@ -66,7 +68,7 @@ body {
     text-decoration: none;
     color: black;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.2rem;
     display: block;
 }
 
@@ -97,6 +99,10 @@ body {
     .logo {
         margin-top: 1.5rem;
     }
+
+    .perfil {
+        padding: 2rem;
+    }
 }
 
 /*Diseño de pagina*/
@@ -110,6 +116,10 @@ h1 {
 	margin: 15px 0;
 	font-weight: 600;
 	text-transform: uppercase;
+}
+
+p {
+    color: white;
 }
 
 footer {
@@ -126,7 +136,7 @@ footer img {
     border-radius: 200px;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: black;
 }
@@ -147,34 +157,10 @@ section {
 	padding: 20px;
 	color: white;
 	background: url("http://cache.preserve.io/llwgfwen/assets/2849ab7b2ff63b601b586db9c7143ece.jpg") no-repeat fixed center;
-	text-align: center;	
+	background: transparent\9;
+    text-align: center;	
 	line-height: 1.3em;
 }
 
-article {
-	position: left;
-}
 
-/*Estilo para la tabla implementada en portafolio.html - Metodologia Container Scrolling*/
 
-.container_table {
-    width: 100%;
-    overflow-x: auto;
-}
-
-table {
-    border: 1px solid #ccc; 
-    color: white;
-    text-align: center;
-    margin: 2rem;
-}
-
-tr {
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #ccc;
-    padding: 1em;
-    font-weight: bold;
-}
