@@ -72,6 +72,12 @@ body {
     display: block;
 }
 
+.thumbnail img {
+    width: 250px;
+    margin-top: 5px;
+    border: 5px solid white;
+}
+
 /*Diseño que debe tomar nuestra pagina en pantallas mayores a 768px (Tablets - PC)*/
 
 @media (min-width: 768px) {
@@ -102,6 +108,47 @@ body {
 
     .perfil {
         padding: 2rem;
+    }
+
+    .container {
+        margin: 0 auto; 
+        overflow: hidden; 
+    }
+
+    .thumbnail {
+        display: block;
+        padding: 4px;
+        margin-bottom: 10px;
+        line-height: 1.42857143;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .col-md-4 {
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 30%;
+        float: right;
+    }
+
+   label {
+        display: inline-block;
+        width: 180px;
+        margin-right: 20px;
+    }
+
+    .form {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    #submit_button {
+        border-radius: 15%;
+        color: black;
+        padding: 5px;
     }
 }
 
@@ -161,6 +208,3 @@ section {
     text-align: center;	
 	line-height: 1.3em;
 }
-
-
-
